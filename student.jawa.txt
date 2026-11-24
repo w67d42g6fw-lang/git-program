@@ -1,0 +1,19 @@
+Class student
+{
+ string name;
+ static string college = "Akash";
+}
+class Demo()
+{
+public static void main (string[]args)
+{
+ student s1=new student();
+         s1.name = "Ram";
+         s1.name = "Arjun";
+ student s2=new student();
+         s2.name = "vijay";
+ system.out.printn (s1.name+"-"+s1.college);
+ system.out.printn (s2.name+" "+s2.college);
+ }
+}
+        
